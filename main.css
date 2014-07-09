@@ -1,0 +1,12 @@
+#create {
+	background-image: url('button.jpg');
+	background-size: 100px 95px;
+	background-repeat: no-repeat;
+
+	width: 100px;
+	height: 95px;
+
+	color: red;
+	font-size: 12px;
+
+}
