@@ -1,12 +1,105 @@
 #create {
 	background-image: url('button.jpg');
-	background-size: 100px 95px;
+	background-size: 110px 95px;
 	background-repeat: no-repeat;
 
-	width: 100px;
+	width: 110px;
 	height: 95px;
 
 	color: red;
+	text-shadow:1px 1px white;
 	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 20px;
 
 }
+
+
+#formBox{
+	text-align: center;
+}
+
+#quoteForm{
+	display: none
+}
+
+body {
+	background: url("http://blog.muchmusic.com/wp-content/uploads/2010/06/rush.jpg") center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+#create-div{
+text-align: center;
+}
+
+.quote, .album, .song{
+/*	background-color: grey;*/
+	opacity: .75;
+	display: inline-block;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+
+.album{
+	margin-right: 30px;
+	margin-left: 15px;
+}
+
+.quote{
+	margin-left: 5px;
+}
+
+.song{
+	margin-left: 15px;
+}
+
+.quoteBox{
+
+	text-align: center;
+}
+
+.quoteArea{
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	opacity: .75;
+	position: relative;
+
+}
+
+.remove{
+bottom:-1px;
+left:20px;
+position: absolute;
+background-color: red;
+border:2px solid black;
+border-radius: 10px;
+
+}
+
+#submit{
+	background-color:lightgreen;
+	border:2px solid black;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-left: 50;
+
+}
+
+#finished{
+	margin-bottom: 20px;
+	margin-left: 50;
+}
+
